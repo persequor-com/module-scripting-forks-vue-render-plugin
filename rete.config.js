@@ -7,7 +7,8 @@ export default {
     input: 'src/index.js',
     name: 'VueRenderPlugin',
     globals: {
-        'vue': 'Vue'
+        'vue': 'Vue',
+        'lodash-es': '_'
     },
     plugins: [
         pug({
